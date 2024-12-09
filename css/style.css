@@ -20,16 +20,16 @@ section {
     justify-content: space-evenly; 
 } 
  
-h4, 
-p { 
-    margin: 0; 
+h4, p { 
+    margin: 0;
+    color:rgb(52, 61, 136); 
 } 
  
 .btn { 
     width: 120px; 
     padding: 16px; 
     background-color: rgb(110, 100, 255); 
-    color: black; 
+    color: rgb(245, 244, 244); 
     border: none; 
     border-radius: 10px; 
     cursor: pointer; 
@@ -83,12 +83,12 @@ p {
 } 
  
 .container { 
-    height: 140px; 
+    height: 160px; 
     gap: 20px; 
 } 
  
 .common-container { 
-    background-color: rgba(234, 234, 234, 0.3); 
+    background-color: rgba(255, 239, 22, 0.829); 
 } 
  
 #about p { 
@@ -96,11 +96,12 @@ p {
 } 
  
 #about .common-container { 
-    text-align: center; 
+    text-align: start; 
+    height: 420px;
 } 
  
 .container div { 
-    flex: 1; 
+    flex: 1;
 } 
  
 /* Experience */ 
@@ -111,7 +112,7 @@ p {
     flex-direction: column; 
 } 
 #experience .container { 
-    height: 300px; 
+    height: 50px; 
     width: 100%; 
 } 
  
@@ -131,15 +132,14 @@ p {
  
 .project-1, 
 .project-2, 
-.project-3, 
-.project-4 { 
+.project-3 { 
     border-radius: 10px; 
     width: 100%; 
 } 
  
 #projects h4 { 
     padding: 30px 0 20px; 
-    color: rgb(85, 85, 85); 
+    color: rgb(34, 38, 245); 
 } 
  
 span { 
